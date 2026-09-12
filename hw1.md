@@ -1,15 +1,15 @@
 # Homework assignment 1 (and only)
 ## Due Friday, 30 October 2026
 
-For this assignment, we'll be setting up and running [Cloud Model 1 (CM1)](https://www2.mmm.ucar.edu/people/bryan/cm1/) to conduct some numerical model simulations, and then analyzing the model output.  
+For this assignment, we'll be setting up and running [Cloud Model 1 (CM1)](https://www2.mmm.ucar.edu/people/bryan/cm1/){:target="_blank" rel="noopener"} to conduct some numerical model simulations, and then analyzing the model output.  
 
 ## Installing the CM1 model
 The first step is to download and install CM1. Some instructions for doing that are [here](cm1_instructions.md).
 
 ## Analyzing and plotting CM1 output
-The recommended method for analyzing and plotting the model output is to use the [NCAR OnDemand system](https://ondemand.hpc.ucar.edu/{:target="_blank"}) with either a VS Code Server or Jupyter-lab, whichever you're more comfortable with. This way you can do your analysis on the same compute system where you ran the model. Log in to the OnDemand with the same credentials you use to log in to derecho, and choose your method and use the ATS 735 class project code if needed. I've put together an example Jupyter notebook [here](cm1_plots_examples.ipynb) that can hopefully get you started. More information and instructions for the OnDemand system can be found [here](https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/ood/?h=ondema#available-applications)
+The recommended method for analyzing and plotting the model output is to use the [NCAR OnDemand system](https://ondemand.hpc.ucar.edu/){:target="_blank"} with either a VS Code Server or Jupyter-lab, whichever you're more comfortable with. This way you can do your analysis on the same compute system where you ran the model. Log in to the OnDemand with the same credentials you use to log in to derecho, and choose your method and use the ATS 735 class project code if needed. I've put together an example Jupyter notebook [here](cm1_plots_examples.ipynb) that can hopefully get you started. More information and instructions for the OnDemand system can be found [here](https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/ood/?h=ondema#available-applications){:target="_blank" rel="noopener"}
 
-Though if you're more comfortable with using a different programming language, you're more than welcome to use that. The 'original' language used by CM1 is [GrADS](http://cola.gmu.edu/grads/), and this is another good choice.
+Though if you're more comfortable with using a different programming language, you're more than welcome to use that. The 'original' language used by CM1 is [GrADS](http://cola.gmu.edu/grads/){:target="_blank" rel="noopener"}, and this is another good choice.
 
 ## Assignment
 
