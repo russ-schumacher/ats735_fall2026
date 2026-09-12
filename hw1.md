@@ -1,13 +1,15 @@
 # Homework assignment 1 (and only)
-## Due Friday, 27 October 2023
+## Due Friday, 30 October 2026
 
 For this assignment, we'll be setting up and running [Cloud Model 1 (CM1)](https://www2.mmm.ucar.edu/people/bryan/cm1/) to conduct some numerical model simulations, and then analyzing the model output.  
 
 ## Installing the CM1 model
 The first step is to download and install CM1. Some instructions for doing that are [here](cm1_instructions.md).
 
-## Setting up a python environment to analyze and plot CM1 output
-If you want to use python to analyze and plot the model output, I've put together some basic instructions and example code [here](cm1_python_instructions.md). You can wait to do these steps until after you've set up and run the model if you want. Likewise, if you're more comfortable with using a different programming language, you're more than welcome to do so! The 'original' language used by CM1 is [GrADS](http://cola.gmu.edu/grads/), and this is another good choice.
+## Analyzing and plotting CM1 output
+The recommended method for analyzing and plotting the model output is to use the [NCAR OnDemand system](https://ondemand.hpc.ucar.edu/{:target="_blank"}) with either a VS Code Server or Jupyter-lab, whichever you're more comfortable with. This way you can do your analysis on the same compute system where you ran the model. Log in to the OnDemand with the same credentials you use to log in to derecho, and choose your method and use the ATS 735 class project code if needed. I've put together an example Jupyter notebook [here](cm1_plots_examples.ipynb) that can hopefully get you started. More information and instructions for the OnDemand system can be found [here](https://ncar-hpc-docs.readthedocs.io/en/latest/compute-systems/ood/?h=ondema#available-applications)
+
+Though if you're more comfortable with using a different programming language, you're more than welcome to use that. The 'original' language used by CM1 is [GrADS](http://cola.gmu.edu/grads/), and this is another good choice.
 
 ## Assignment
 
@@ -27,5 +29,5 @@ Now, you can start running your own experiments. How to configure them is comple
 * The “out of the box” simulations described above should be possible to run on any desktop, or even laptop, machine. The 2D simulations will be fast (a few minutes on my laptop), the 3D will take a while longer. If you have computing resources available to you and you want to do experiments that test the sensitivity to resolution, of course feel free to do so, but considering that not everyone in the class will have the capability (or desire) to run at higher resolution, it’s totally fine to do your experiments at the default grid spacing.
 * You should be able to just use the output files that are interpolated to the scalar grid (for example, uinterp, vinterp, winterp) – this is generally easier to work with than dealing with the velocity components on the staggered grids.
 * Note that CM1 also outputs files with useful statistics about the simulations (“cm1out stats”). These can be quite handy when trying to assess the overall behavior of the simulation over time, without having to use the full output files.
-* CM1 is also nice enough to calculate useful quantities for you as they relate to squall lines, such as the cold-pool intensity c.
+* CM1 is also nice enough to calculate useful quantities for you as they relate to squall lines, such as the cold-pool intensity $c$.
 
