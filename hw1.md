@@ -31,5 +31,6 @@ Now, you can start running your own experiments. How to configure them is comple
 * The “out of the box” simulations described above should be possible to run on any desktop, or even laptop, machine. The 2D simulations will be fast (a few minutes on my laptop), the 3D will take a while longer. If you have computing resources available to you and you want to do experiments that test the sensitivity to resolution, of course feel free to do so, but considering that not everyone in the class will have the capability (or desire) to run at higher resolution, it’s totally fine to do your experiments at the default grid spacing.
 * You should be able to just use the output files that are interpolated to the scalar grid (for example, uinterp, vinterp, winterp) – this is generally easier to work with than dealing with the velocity components on the staggered grids.
 * Note that CM1 also outputs files with useful statistics about the simulations (“cm1out stats”). These can be quite handy when trying to assess the overall behavior of the simulation over time, without having to use the full output files.
-* CM1 is also nice enough to calculate useful quantities for you as they relate to squall lines, such as the cold-pool intensity $c$.
+* CM1 is also nice enough to calculate useful quantities for you as they relate to squall lines, such as the cold-pool intensity *c*.
+* We have a generous core-hour allocation from NCAR for class use, but it's not unlimited. Please be considerate of the shared resource and don't run any **huge** jobs without checking with me first.
 
