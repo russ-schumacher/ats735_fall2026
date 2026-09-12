@@ -11,6 +11,8 @@ The recommended method for analyzing and plotting the model output is to use the
 
 Though if you're more comfortable with using a different programming language, you're more than welcome to use that. The 'original' language used by CM1 is [GrADS](http://opengrads.org){:target="_blank" rel="noopener"}, and this is another good choice.
 
+And for a quick look at your model output without needing to write code, use ``ncview'': run ``module load ncview'' to make it available, and then use ``ncview <yourfilename>'' to visualize your model output. 
+
 ## Assignment
 
 ### Model configuration
